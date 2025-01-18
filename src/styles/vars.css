@@ -1,13 +1,26 @@
 :root {
   /* Типографика */
-  --family: 'Nunito Sans', sans-serif;
-  --fs-sm: 14px;
-  --fs-md: 22px;
+  --family: 'Open Sans', sans-serif;
+  --fs-sm: 12px;
+  --fs-md-sm: 13px;
+  --fs-md: 14px;
+  --fs-lg: 24px;
   --fw-light: 300;
   --fw-normal: 400;
+  --fw-semi-bold: 600;
   --fw-bold: 800;
 
   /* Цвета */
+  --colors-text: #4A4A4A;
+  --colors-text-alt: #A0B0B9;
+  --colors-text-title: #2196F3;
+  --colors-text-hover: #FFFFFF;
+  --colors-bg: #E5E5E5;
+  --colors-ui-base: #ffffff;
+
+  --shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  --shadow-hover: rgba(119, 124, 129, 0.575) 0px 8px 24px;
+
 
 
   /* Другое */
