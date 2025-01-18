@@ -1,8 +1,9 @@
-function App() {
+import '../styles/index.css';
 
-  return (
-    <div>11111</div>
-  );
+import TicketsPage from '../pages/TicketsPage';
+
+function App() {
+  return <TicketsPage />;
 }
 
-export default App
+export default App;
