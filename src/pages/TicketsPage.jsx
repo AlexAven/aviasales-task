@@ -1,9 +1,13 @@
-import Header from '../components/Header';
+import Filter from '../components/Filter';
+import Switcher from '../components/Switcher';
+import List from '../components/List';
 
 const TicketsPage = () => {
   return (
     <>
-      <Header />
+      <Filter />
+      <Switcher />
+      <List></List>
     </>
   );
 };

@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 const Wrapper = styled.div`
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 40px;
+  padding-bottom: 31px;
 
   display: flex;
   justify-content: center;
@@ -13,7 +13,7 @@ const Logo = styled.a.attrs({
 })``;
 
 const Image = styled.img.attrs({
-  src: './src/assets/pictures/logo.png',
+  src: './src/assets/pictures/logo.svg',
 })``;
 
 const Header = () => {

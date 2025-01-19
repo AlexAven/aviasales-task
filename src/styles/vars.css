@@ -6,23 +6,28 @@
   --fs-md: 14px;
   --fs-lg: 24px;
   --fw-light: 300;
-  --fw-normal: 400;
+  --fw-regular: 400;
   --fw-semi-bold: 600;
   --fw-bold: 800;
 
   /* Цвета */
+
+  /* Текст */
   --colors-text: #4A4A4A;
   --colors-text-alt: #A0B0B9;
   --colors-text-title: #2196F3;
   --colors-text-hover: #FFFFFF;
-  --colors-bg: #E5E5E5;
+
+  /* Интерфейс */
+  --colors-bg: #f3f7fa;
   --colors-ui-base: #ffffff;
+  --colors-ui-btns: #2196F3;
+  --colors-ui-unselect: #9ABBCE;
+  --colors-ui-hover: #F1FCFF;
 
   --shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   --shadow-hover: rgba(119, 124, 129, 0.575) 0px 8px 24px;
 
-
-
   /* Другое */
-  --radii: 0.5rem;
+  --radii: 5px;
 }
