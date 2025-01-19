@@ -6,7 +6,7 @@ const Wrapper = styled.div`
   grid-row: span 2;
   background-color: var(--colors-ui-base);
   border-radius: var(--radii);
-  padding: 20px 0 10px;
+  padding: 20px 0;
   box-shadow: var(--shadow);
   height: 252px;
 `;
@@ -14,7 +14,7 @@ const Wrapper = styled.div`
 const Title = styled.h2`
   text-transform: uppercase;
   font-weight: var(--fw-semi-bold);
-  padding: 0 20px 10px;
+  padding: 0 20px 0;
 `;
 
 const Filter = () => {
