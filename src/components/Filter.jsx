@@ -6,7 +6,9 @@ const Wrapper = styled.div`
   grid-row: span 2;
   background-color: var(--colors-ui-base);
   border-radius: var(--radii);
-  padding: 20px 0;
+  padding: 20px 0 10px;
+  box-shadow: var(--shadow);
+  height: 252px;
 `;
 
 const Title = styled.h2`
@@ -14,11 +16,6 @@ const Title = styled.h2`
   font-weight: var(--fw-semi-bold);
   padding: 0 20px 10px;
 `;
-
-// const Checkbox = styled.input.attrs({
-//   type: 'checkbox',
-//   name: 'filters',
-// })``;
 
 const Filter = () => {
   return (

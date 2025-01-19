@@ -1,17 +1,11 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 const Wrapper = styled.section`
-  background-color: orange;
-  height: 200px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
 `;
 
-const List = ({ children }) => {
-  return (
-    <Wrapper>
-      3333333333333
-      {children}
-    </Wrapper>
-  );
-};
+const List = ({ children }) => <Wrapper>{children}</Wrapper>;
 
 export default List;

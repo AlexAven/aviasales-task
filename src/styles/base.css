@@ -5,4 +5,5 @@ body {
   font-weight: var(--fw-regular);
   font-size: var(--fs-sm);
   background-color: var(--colors-bg);
+  line-height: var(--line-height);
 }

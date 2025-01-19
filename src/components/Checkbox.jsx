@@ -3,7 +3,6 @@ import styled from 'styled-components';
 const CheckboxWrapper = styled.label`
   display: block;
   position: relative;
-  /* margin-top: 10px; */
   padding: 10px 20px;
   width: 100%;
 
