@@ -38,36 +38,25 @@ const Text = styled.p`
   line-height: 21px;
 `;
 
-const FlightInfo = ({
-  departsTime = '',
-  arrivesTime = '',
-  departsPort = '',
-  arrivesPort = '',
-  timing,
-  ...transfers
-}) => {
+const FlightInfo = ({ origin, destination, date, stops, duration }) => {
+  const transfers = stops?.join(', ');
   return (
     <Wrapper>
       <Destination>
         <Title>
-          {/* {departsPort} - {arrivesPort} */}
-          MOW - HKG
+          {origin} - {destination}
         </Title>
         <Text>
-          {/* {departsTime} - {arrivesTime} */}
-          10:45 – 08:00
+          {date} - {duration}
         </Text>
       </Destination>
       <Time>
         <Title>в пути</Title>
-        <Text>
-          {/* {timing} */}
-          21ч 15м
-        </Text>
+        <Text>{duration}</Text>
       </Time>
       <Transfer>
-        <Title>2 Пересадки</Title>
-        <Text>HKG, JNB</Text>
+        <Title>Пересадки</Title>
+        <Text>{transfers}</Text>
       </Transfer>
     </Wrapper>
   );

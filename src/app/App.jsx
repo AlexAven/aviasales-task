@@ -1,12 +1,10 @@
-import '../styles/index.css';
-
 import Layout from '../components/Layout';
-import TicketsPage from '../pages/TicketsPage';
+import FlightsPage from '../pages/FlightsPage';
 
 function App() {
   return (
     <Layout>
-      <TicketsPage />
+      <FlightsPage />
     </Layout>
   );
 }

@@ -38,16 +38,17 @@ const Details = styled.div`
   gap: 10px;
 `;
 
-const Card = () => {
+const Card = ({ price, segments }) => {
   return (
     <Wrapper>
       <Title>
-        <Price>12 400 Р</Price>
+        <Price>{price?.toLocaleString('ru-RU')} Р</Price>
         <AirlinesLogo src="./src/assets/pictures/s7.png" alt="S7" />
       </Title>
       <Details>
-        <FlightInfo />
-        <FlightInfo />
+        {segments?.map((flight, index) => (
+          <FlightInfo key={index} {...flight} />
+        ))}
       </Details>
     </Wrapper>
   );
